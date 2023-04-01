@@ -1,26 +1,29 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+
+import DrugInput from "./components/input.js"
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Something else</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={styles.SafeAreaView}>
+      <DrugInput/>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  SafeAreaView: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  container2: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+  // drugInput: {
+  //   flex: 1,
+  //   // height: "100%",
+  //   width: "100%",
+  //   backgroundColor: 'red',
+  //   alignItems: 'center',
+  //   justifyContent: 'center',
+  // },
 });

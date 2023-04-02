@@ -3,12 +3,15 @@ import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 
 import DrugInput from "./components/input.js";
 import Opening1 from "./screens/Opening1.js";
+import Opening2 from "./screens/Opening2.js";
+import Opening3 from "./screens/Opening3.js";
+import MyPills from "./screens/MyPills.js";
 
 
 export default function App() {
   return (
     //<SafeAreaView style={styles.SafeAreaView}>
-      <Opening1/>
+      <MyPills/>
     //</SafeAreaView>
   );
 }

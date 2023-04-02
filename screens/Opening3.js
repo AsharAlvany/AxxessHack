@@ -11,19 +11,19 @@ import Star from '../components/Star.js';
 import Dot from '../components/Dot.js';
 //import { solid, regular, brands} from '@fortawesome/fontawesome-svg-core/import.macro';
 
-export default function Opening1 () {
+export default function Opening3 () {
     return (
         <View style={styles.screen}>
             <ImageBackground style={styles.screen} source={require('../images/openback.png')}>
             <SafeAreaView style={styles.SafeAreaView}>
                 <View style={styles.header}>
-                    <Text style={styles.heading}>Welcome to Meditrina!</Text>
+                    <Text style={styles.heading}>Get Reminded to Take Your Pills</Text>
                 </View>
                 <View style={styles.imageBox}>
                     <Open1 strokeWidth={8}/>
                 </View>
                 <View style={styles.header}>
-                    <Text style={styles.caption}>One place to track all your medicinal needs </Text>
+                    <Text style={styles.caption}>Earn completion badges for taking your pills regularly!</Text>
                 </View>
                 <View style={styles.iconBox}>
                     <View style={styles.right}>
@@ -31,17 +31,17 @@ export default function Opening1 () {
                     </View>
                     <View style={styles.dot}>
                         <Svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <Circle cx="10" cy="10" r="10" fill={Colors.yellow}/>
-                        </Svg>
-                    </View>
-                    <View style={styles.dot}>
-                        <Svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <Circle cx="10" cy="10" r="10" fill={Colors.lightBlue}/>
                         </Svg>
                     </View>
                     <View style={styles.dot}>
                         <Svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <Circle cx="10" cy="10" r="10" fill={Colors.lightBlue}/>
+                        </Svg>
+                    </View>
+                    <View style={styles.dot}>
+                        <Svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <Circle cx="10" cy="10" r="10" fill={Colors.orange}/>
                         </Svg>
                     </View>
                     <View style={styles.left}>

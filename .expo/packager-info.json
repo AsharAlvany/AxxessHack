@@ -1,7 +1,15 @@
 {
   "expoServerPort": 19000,
   "packagerPort": 19000,
+<<<<<<< HEAD
   "expoServerNgrokUrl": "https://ms-hve.anonymous.axxesshack.exp.direct",
   "packagerNgrokUrl": "https://ms-hve.anonymous.axxesshack.exp.direct",
   "ngrokPid": 38319
+=======
+  "expoServerNgrokUrl": "https://ms-hve.alekhyaa.axxess-hack.exp.direct",
+  "packagerNgrokUrl": "https://ms-hve.alekhyaa.axxess-hack.exp.direct",
+  "ngrokPid": 9164,
+  "packagerPid": null,
+  "webpackServerPort": null
+>>>>>>> origin/main
 }

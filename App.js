@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 
-import DrugInput from "./components/input.js"
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Icon from "react-native-vector-icons/Ionicons";
+import DrugInput from "./components/input.js";
+import Opening1 from "./screens/Opening1.js";
 
 import Home from "./screens/Home"
 import Badges from "./screens/Badges"

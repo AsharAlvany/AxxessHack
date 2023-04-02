@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View, Image, ImageBackground } from 'react-native';
-import Colors from "../constants/Colors.js";
+import Colors from "../constants/Colors";
 import {Svg, SvgUri, Path, Circle} from 'react-native-svg';
 import Open1 from '../components/Open1.js';
 

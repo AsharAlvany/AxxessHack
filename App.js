@@ -10,7 +10,7 @@ import Opening2 from "./screens/Opening2.js";
 import Opening3 from "./screens/Opening3.js";
 import MyPills from "./screens/MyPills.js";
 
-import Home from "./screens/Home"
+import Home from "./screens/MyPills"
 import Badges from "./screens/Badges"
 import Settings from "./screens/Settings"
 
@@ -33,9 +33,6 @@ export default function App() {
                     else if (rn === "Settings") {
                         return <Set strokeWidth={4}/>
                     }
-
-                    return <Icon name={iconName} size={size} color={color} />
-
                 },
                 tabBarActiveTintColor: "#FF403b",
                 tabBarInactiveTintColor: "#B4B4B4",

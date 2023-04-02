@@ -1,1 +1,9 @@
-{}
+{
+  "expoServerPort": 19000,
+  "packagerPort": 19000,
+  "expoServerNgrokUrl": "https://ms-hve.anonymous.axxesshack.exp.direct",
+  "packagerNgrokUrl": "https://ms-hve.anonymous.axxesshack.exp.direct",
+  "ngrokPid": 11441,
+  "packagerPid": null,
+  "webpackServerPort": null
+}

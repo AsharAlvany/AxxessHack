@@ -15,7 +15,7 @@ export default function Opening1 () {
     return (
         <View style={styles.screen}>
             <ImageBackground style={styles.screen} source={require('../images/openback.png')}>
-            <SafeAreaView style={styles.SafeAreaView}>
+            {/* <SafeAreaView style={styles.SafeAreaView}> */}
                 <View style={styles.header}>
                     <Text style={styles.heading}>Welcome to Meditrina!</Text>
                 </View>
@@ -48,7 +48,7 @@ export default function Opening1 () {
                     <ChevLeft strokeWidth={3}/>
                     </View>
                 </View>
-            </SafeAreaView>
+            {/* </SafeAreaView>/ */}
             </ImageBackground>
         </View>
     );

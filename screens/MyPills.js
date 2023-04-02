@@ -15,7 +15,8 @@ export default function MyPills () {
     return (
         <View style={styles.screen}>
             <ImageBackground style={styles.screen} source={require('../images/background.png')}>
-            <SafeAreaView style={styles.SafeAreaView}>
+            <StatusBar style={"dark-content"} />
+            <SafeAreaView edges={['right', 'left', 'top']} style={styles.SafeAreaView}>
                 <View style={styles.header}>
                     <Text style={styles.heading}>My Pills</Text>
                     <TouchableOpacity>
@@ -55,12 +56,12 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-        margin: 10
+        margin: 10,
     },
     heading:
     {
         fontWeight: '800',
-        fontSize: '35',
+        fontSize: 35,
         color: Colors.darkBlue
     },
     add:

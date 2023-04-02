@@ -20,7 +20,7 @@ export default function Opening3 () {
                     <Text style={styles.heading}>Get Reminded to Take Your Pills</Text>
                 </View>
                 <View style={styles.imageBox}>
-                    <Open1 strokeWidth={8}/>
+                    <Image source={require("../images/open3.png")}/>
                 </View>
                 <View style={styles.header}>
                     <Text style={styles.caption}>Earn completion badges for taking your pills regularly!</Text>

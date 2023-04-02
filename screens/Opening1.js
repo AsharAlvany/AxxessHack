@@ -20,7 +20,7 @@ export default function Opening1 () {
                     <Text style={styles.heading}>Welcome to Meditrina!</Text>
                 </View>
                 <View style={styles.imageBox}>
-                    <Open1 strokeWidth={8}/>
+                    <Image source={require("../images/logo.png")}/>
                 </View>
                 <View style={styles.header}>
                     <Text style={styles.caption}>One place to track all your medicinal needs </Text>
@@ -81,8 +81,8 @@ const styles = StyleSheet.create({
         color: Colors.cream
     },
     imageBox: {
-        marginTop: '30%',
-        marginBottom: '20%'
+        marginTop: '10%',
+        marginBottom: '15%'
 
     },
     caption: {

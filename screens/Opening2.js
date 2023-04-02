@@ -20,7 +20,7 @@ export default function Opening2 () {
                     <Text style={styles.heading}>Track with Ease</Text>
                 </View>
                 <View style={styles.imageBox}>
-                    <Open1 strokeWidth={8}/>
+                    <Image source={require("../images/bottle.png")}/>
                 </View>
                 <View style={styles.header}>
                     <Text style={styles.caption}>Add medications for yourself or others. Track progress. Stay healthy.</Text>

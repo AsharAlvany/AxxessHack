@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import DrugInput from "../components/input.js"
 
-export default function App() {
+export default function Home() {
   return (
     <DrugInput/>
   );

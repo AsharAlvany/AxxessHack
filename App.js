@@ -1,14 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 
-import DrugInput from "./components/input.js"
+import DrugInput from "./components/input.js";
+import Opening1 from "./screens/Opening1.js";
 
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.SafeAreaView}>
-      <DrugInput/>
-    </SafeAreaView>
+    //<SafeAreaView style={styles.SafeAreaView}>
+      <Opening1/>
+    //</SafeAreaView>
   );
 }
 

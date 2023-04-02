@@ -1,1 +1,7 @@
-{}
+{
+  "expoServerPort": 19000,
+  "packagerPort": 19000,
+  "expoServerNgrokUrl": "https://ms-hve.alekhyaa.axxess-hack.exp.direct",
+  "packagerNgrokUrl": "https://ms-hve.alekhyaa.axxess-hack.exp.direct",
+  "ngrokPid": 13408
+}

@@ -5,36 +5,42 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Icon from "react-native-vector-icons/Ionicons";
 import DrugInput from "./components/input.js";
+import Pill from "./components/Pill";
+import Star from "./components/Star";
+import Set from "./components/Set";
 import Opening1 from "./screens/Opening1.js";
 import Opening2 from "./screens/Opening2.js";
 import Opening3 from "./screens/Opening3.js";
-import MyPills from "./screens/MyPills.js";
 
-import Home from "./screens/Home"
+import MyPills from "./screens/MyPills"
 import Badges from "./screens/Badges"
 import Settings from "./screens/Settings"
+
+const myPillsName = "My Pills";
+const badgesName = "Badges";
+const settingsName = "Settings";
+
+const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
     <NavigationContainer independent={true}>
         <Tab.Navigator
-            initialRouteName={"Home"}
+            initialRouteName={myPillsName}
             screenOptions={({ route }) => ({
                 tabBarIcon: ({ focused, color, size }) => {
                     let iconName;
                     let rn = route.name;
 
-                    if (rn === "Home") {
+                    if (rn === myPillsName) {
                         return <Pill strokeWidth={4}/>
                     }
-                    else if (rn === "Badges") {
+                    else if (rn === badgesName) {
                         return <Star strokeWidth={4}/>
                     }
-                    else if (rn === "Settings") {
+                    else if (rn === settingsName) {
                         return <Set strokeWidth={4}/>
                     }
-
-                    return <Icon name={iconName} size={size} color={color} />
 
                 },
                 tabBarActiveTintColor: "#FF403b",
@@ -53,9 +59,9 @@ export default function App() {
             })}
         >
 
-            <Tab.Screen styles={styles.bottomTab} options={{ headerShown: false }} name={"Home"} component={Home} />
-            <Tab.Screen options={{ headerShown: false }} name={"Badges"} component={Badges} />
-            <Tab.Screen options={{ headerShown: false }} name={"Settings"} component={Settings} />
+            <Tab.Screen styles={styles.bottomTab} options={{ headerShown: false }} name={myPillsName} component={MyPills} />
+            <Tab.Screen options={{ headerShown: false }} name={badgesName} component={Badges} />
+            <Tab.Screen options={{ headerShown: false }} name={settingsName} component={Settings} />
         </Tab.Navigator>
     </NavigationContainer>
   );
